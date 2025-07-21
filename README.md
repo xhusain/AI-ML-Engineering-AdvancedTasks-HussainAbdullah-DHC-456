@@ -8,7 +8,7 @@ This repository contains three advanced machine learning tasks, each demonstrati
 
 ### **Objective**
 
-Build a news classifier that predicts the topic of a news article using the **AG News Dataset**. Implement a transformer-based model (BERT) for sequence classification.
+Fine-tune a transformer model (e.g., BERT) to classify news headlines into topic categories.
 
 ### **Dataset**
 
@@ -47,7 +47,7 @@ pip install torch transformers datasets scikit-learn
 
 ### **Objective**
 
-Predict customer churn using a structured dataset with both categorical and numerical features. Compare Logistic Regression and Random Forest classifiers.
+Build a reusable and production-ready machine learning pipeline for predicting customer churn.
 
 ### **Dataset**
 
@@ -86,7 +86,7 @@ pip install pandas scikit-learn joblib
 
 ### **Objective**
 
-Automatically assign tags to IT support tickets using **zero-shot**, **few-shot**, and **fine-tuned transformer** methods. Compare approaches and deploy via a Gradio app.
+Automatically tag support tickets into categories using a large language model (LLM).
 
 ### **Dataset**
 
@@ -125,8 +125,3 @@ pip install pandas datasets transformers scikit-learn openai gradio torch
 ```python
 iface.launch()
 ```
-
----
-
-
-
