@@ -35,11 +35,10 @@ Build a news classifier that predicts the topic of a news article using the **AG
 
 * Achieved high accuracy and F1-score on the test set.
 
-### **Run**
+### **Required Libraries**
 
 ```bash
 pip install torch transformers datasets scikit-learn
-python task1_news_classification.py
 ```
 
 ---
@@ -75,11 +74,10 @@ Predict customer churn using a structured dataset with both categorical and nume
 
    * Saved as `telco_churn_pipeline.pkl`.
 
-### **Run**
+### **Required Libraries**
 
 ```bash
 pip install pandas scikit-learn joblib
-python task2_telco_churn.py
 ```
 
 ---
@@ -116,11 +114,10 @@ Automatically assign tags to IT support tickets using **zero-shot**, **few-shot*
 
    * Build Gradio web interface to compare zero-shot, few-shot, and fine-tuned predictions.
 
-### **Run**
+### **Required Libraries**
 
 ```bash
 pip install pandas datasets transformers scikit-learn openai gradio torch
-python task5_support_ticket_autotagger.py
 ```
 
 **Launch Gradio App**:
