@@ -49,9 +49,9 @@ pip install torch transformers datasets scikit-learn
 
 Build a reusable and production-ready machine learning pipeline for predicting customer churn.
 
-### **Dataset**
+### **Dataset** https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
-* Telco Customer Churn dataset (CSV).
+* [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 * Target: **Churn** (Yes = 1, No = 0).
 
 ### **Approach**
